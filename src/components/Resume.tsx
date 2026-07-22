@@ -22,7 +22,7 @@ const Resume = () => {
                 Download my resume to learn more about my professional experience, skills, and qualifications.
               </p>
               <Link 
-                href="/Errol-Resume%20(5).pdf" 
+                href="/Errol_Resume_Dev (1).pdf" 
                 target="_blank"
                 className="inline-flex items-center px-6 py-3 bg-green-500 text-black font-semibold rounded-lg hover:bg-green-400 transition-colors"
                 download
@@ -87,7 +87,7 @@ const Resume = () => {
               whileTap={{ scale: 0.95 }}
             >
               <Link 
-                href="/Errol-Resume%20(5).pdf" 
+                href="/Errol_Resume_Dev (1).pdf" 
                 target="_blank"
                 className="inline-flex items-center px-6 py-3 bg-green-500 text-black font-semibold rounded-lg hover:bg-green-400 transition-colors"
                 download
