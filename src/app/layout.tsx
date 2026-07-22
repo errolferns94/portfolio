@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import { JetBrains_Mono, Poppins } from "next/font/google";
+// Ignore missing type declarations for CSS modules in this environment
+// @ts-ignore
 import "./globals.css";
 
 const jetbrainsMono = JetBrains_Mono({
@@ -23,7 +26,7 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: ReactNode
 }) {
   return (
     <html 
