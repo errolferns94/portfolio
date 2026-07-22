@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { JetBrains_Mono, Poppins } from "next/font/google";
 // Ignore missing type declarations for CSS modules in this environment
-// @ts-ignore
+// @ts-expect-error - CSS import typing is not available in this environment
 import "./globals.css";
 
 const jetbrainsMono = JetBrains_Mono({
